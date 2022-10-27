@@ -44,6 +44,33 @@
     color: #FFE8D6;
 }
 
-.item-menu{
+.item-menu {
     color: #FFE8D6;
+}
+
+.banner {
+    height: 500px;
+}
+
+.banner img {
+    height: 500px;
+    border-bottom: 3px solid #6B705B;
+    width: 100%;
+}
+
+.title-cardapio {
+    margin-top: 50px;
+    font-family: 'Cookie';
+    font-weight: normal;
+    font-size: 45px;
+    color: #CB997E;
+    text-align: center;
+}
+
+.lista-cardapio{
+    column-count: 4;
+    padding: 68px;
+    font-family: 'Roboto';
+    color: #6B705B;
+    list-style: none;
 }
