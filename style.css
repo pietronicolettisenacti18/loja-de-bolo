@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    width: 1000px;
+
+    margin: auto;
+
+}
+
+.cabecalho {
+    text-align: center;
+    background-image: url('img/Rectangle\ 1.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.titulo {
+
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    line-height: 40px;
+    color: #6b705b;
+}
+
+.titulo2 {
+    font-size: 40px;
+}
+
+.menu {
+    background-color: #6b705b;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto';
+    color: #FFE8D6;
+}
+
+.item-menu{
+    color: #FFE8D6;
+}
