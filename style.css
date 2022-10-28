@@ -58,7 +58,9 @@
     width: 100%;
 }
 
-.title-cardapio {
+.title-cardapio,
+.titulo-galeria,
+.titulo-contato {
     margin-top: 50px;
     font-family: 'Cookie';
     font-weight: normal;
@@ -67,10 +69,49 @@
     text-align: center;
 }
 
-.lista-cardapio{
+.lista-cardapio {
     column-count: 4;
     padding: 68px;
     font-family: 'Roboto';
     color: #6B705B;
     list-style: none;
+}
+
+.galeria-foto {
+    background-color: #6b705c;
+    padding-top: 5px;
+    padding-bottom: 50px;
+
+    
+}
+
+.titulo-galeria {
+
+    color: #CB997E;
+    padding-bottom: 20px;
+    
+}
+
+.linha-fotos {
+    display: flex     ;
+    justify-content: space-evenly;
+}
+
+.foto-bolo {
+    border: 5px solid #CB997E;
+    border-radius: 3px;
+    transition: all 2s ease;
+}
+
+.foto-bolo:hover {
+    border-color: red;
+    cursor: crosshair;
+    transform: scale(1.1);
+
+}
+
+.mapa{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
